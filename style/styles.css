@@ -1,0 +1,51 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    color: #800000;
+}
+
+header {
+    position: absolute;
+    right: 20pt;
+    padding: 2vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    display: flex;
+}
+
+.whole {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.portfolio {
+    padding: 10px;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 1vw;
+}
+
+.update {
+    padding: 2px;
+    font-size: 7vw;
+    font-weight: 100;
+    letter-spacing: 1vw;
+    text-shadow: 0px 0px 4px #8000007e;
+}
+
+
+.name {
+    position: absolute;
+    bottom: 0vw;
+    left: 50vw;
+    transform: translate(-50%, 0%);
+    padding: 10px;
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: Raleway;
+    letter-spacing: 2vw;
+}
